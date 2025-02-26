@@ -1,0 +1,290 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hrBorder {
+    border-right: 0.5px solid #8a8a8a;
+}
+
+.navArrow {
+    visibility: hidden;
+    margin-right: 10px;
+    transition: all 100ms linear;
+}
+
+.navItem:hover {
+    .navArrow {
+        visibility: visible;
+        transform: translateX(5px);
+        transition: all 100ms linear;
+    }
+}
+
+.button {
+    position: relative;
+    transition: .1s;
+    z-index: 999;
+    overflow: hidden;
+}
+
+.button:hover {
+    color: #000;
+}
+
+.button::before {
+    content: '';
+    position: absolute;
+    top: -60px;
+    left: -70px;
+    width: 100%;
+    height: 250%;
+    scale: 0;
+    border-radius: 100%;
+    z-index: -1;
+    transition: .3s;
+}
+
+.button:hover:before {
+    scale: 2.5;
+}
+
+.btnHoverEffect {
+    transition: all .2s linear;
+}
+
+.btnHoverEffect:hover {
+    background-color: #121212;
+    gap: 18px;
+    box-shadow: none;
+    transition: .2s ease-in;
+}
+
+.btn:before {
+    transition: width 0.5s, height 0.5s;
+}
+
+.heroImage {
+    align-items: flex-end;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+    padding: 46px 0 0;
+    position: relative;
+    width: 100%;
+}
+
+.imageProps {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.arrowDown {
+    transition: all 300ms;
+}
+
+.arrowAnimate {
+    transition: .1s all linear;
+}
+
+.arrowAnimate:hover {
+    .arrowDown {
+        transform: scaleY(-1);
+        transition: all 300ms;
+    }
+    color: #f4f4f4;
+    transition: .1s linear;
+} 
+
+.authImage {
+    background: url(/auth.png)-2px calc(50% + 22px) no-repeat;
+    background-size: 220px auto;
+    background-color: #050505;
+}
+
+@layer utilities {
+    .mask-image-fade {
+        -webkit-mask-image: linear-gradient(to bottom, to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 79%, rgba(255, 255, 255, 0.7) 85%, rgba(0, 0, 0, 0.3) 99%);
+        mask-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 79%, rgba(255, 255, 255, 0.7) 85%, rgba(0, 0, 0, 0.2) 99%);
+    }
+  }
+
+.authCard {
+    background-image: url(/pm2.png);
+    background-size: fill;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.arrowMeeting {
+    transition: .1s linear all;
+}
+
+.meetingMicro:hover {
+    .arrowMeeting {
+        transform: translateX(5px);
+        transition: .1s linear all;
+    }
+}
+
+.sliderCard:hover {
+    background: radial-gradient(circle at 100% -20%, #4238ab, #2a3897, #0f3783, #00336f, #002e5b, #002847, #022237, #011929, #011622, #00101a, #000c13, #000c14);
+}
+
+.contactForm {
+    background-image: radial-gradient(131.75% 102.44% at 16.67% 0, rgba(20, 24, 31, .5), rgba(20, 24, 31, .3) 47.96%, rgba(20, 24, 31, 0));
+}
+
+.parentStack, .cursor {
+    cursor: url(/cursor4.png) 10 6, pointer;
+}
+
+.Show, .hide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: scale(0);
+}
+
+.Show {
+    transition: transform 1s, opacity 1s;
+}
+
+.hide {
+    transition: transform .5s, opacity 1s;
+    opacity: 1;
+    transform: scale(1);
+  }
+
+.parentStack:hover .Show {
+    opacity: 1;
+    transform: scale(1);
+    animation: bounce .5s ease-in-out;
+}
+  
+.parentStack:hover .hide {
+    opacity: 0;
+    transform: scale(0);
+}
+
+.cursor1, .cursor2, .cursor3 {
+    transition: all .5s linear;
+}
+
+.parentStack:hover {
+    .cursor1 {
+        transform: translate(-24px, 30px);
+        transition: .4s linear;
+    }
+    .cursor2 {
+        transform: translate(-24px, -20px);
+        transition: .3s linear;
+    }
+    .cursor3 {
+        transform: translate(60px, 40px);
+        transition: .5s linear;
+    }
+    
+}
+
+@keyframes bounce {
+    0% {
+      transform: scale(1);
+    }
+    80% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.micContainer, #micIcon {
+    transition: .5s linear all;
+}
+
+#circle1, #circle2, #circle3 {
+    opacity: 0;
+    transform: scale(1);
+    transition: 1s all ease-out;
+}
+
+.micWork:hover {
+    .micContainer {
+        box-shadow: 0 5px 15px 5px rgba(176,214,255,0.8);
+    transition: .5s linear;
+    }
+    #circle1 {
+        transform: scale(2.5);
+    transition: 1s all ease-in;
+    animation: fader 1.5s linear infinite;
+    }
+    #circle2 {
+        transform: scale(1.7);
+    transition: 1s all ease-in;
+    animation: fader 1.5s linear infinite;
+    animation-delay: .5s;
+    }
+    #circle3 {
+        transform: scale(1.5);
+    transition: 1s all ease-in;
+    animation: fader 1.5s linear infinite;
+    animation-delay: 1s;
+    }
+    #micIcon {
+        color: #ffffff;
+        box-shadow: 0 35px 60px 35px rgba(63,49,255,0.3);
+        transition: .5s linear;
+    }
+}
+
+@keyframes fader {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(3);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0;
+    }
+}
+
+.numberCard {
+    background: linear-gradient(137deg, rgba(17, 18, 20, .75) 4.87%, rgba(12, 13, 15, .9) 75.88%);
+    box-shadow: inset 0 1px 1px 0 hsla(0, 0%, 100%, .15);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s all linear;
+}
+
+.numberCard:hover {
+    background: linear-gradient(137deg, rgba(54, 56, 60, 0.75) 4.87%, rgba(12, 13, 15, .9) 75.88%);
+    transition: .3s all linear;
+}
+
+
+@media (min-width: 300px) and (max-width: 809px){
+    #featureContainer p {
+        display: none;
+    }
+    #featureContainer h6 {
+        font-size: 16px;
+    }
+    #featureContainer div {
+        align-items: center;
+        text-align: center;
+    }
+}
