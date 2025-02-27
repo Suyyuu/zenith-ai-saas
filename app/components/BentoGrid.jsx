@@ -63,21 +63,21 @@ const BentoGrid = () => {
               <img
                 className="w-full h-full backdrop-blur-[20px] "
                 src="/card3.png"
-                alt=""
+                alt="cardImage"
               />
             </div>
             <div className="absolute top-10 bg-[#10101044] grayscale scale-[1] mobiles:scale-[.8] backdrop-blur-[20px] rounded-[20px] [mask-image:linear-gradient(to_right,white_20%,white_70%,transparent)] -skew-y-12 skew-x-1 translate-x-10 translate-y-10 hover:grayscale-0 hover:translate-y-4 transition-all duration-300 ease-in">
               <img
                 className="w-full h-full backdrop-blur-[20px]"
                 src="/card2.png"
-                alt=""
+                alt="cardImage"
               />
             </div>
             <div className="absolute top-10 bg-[#10101044] scale-[1] mobiles:scale-[.8] backdrop-blur-[20px] rounded-[20px] [mask-image:linear-gradient(to_right,white_20%,white_70%,transparent)] -skew-y-12 skew-x-1 translate-x-20 translate-y-20 hover:grayscale-0 hover:translate-y-14 transition-all duration-300 ease-in">
               <img
                 className="w-full h-full backdrop-blur-[20px]"
                 src="/card1.png"
-                alt=""
+                alt="cardImage"
               />
             </div>
           </div>
