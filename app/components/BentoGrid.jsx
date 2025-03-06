@@ -52,7 +52,7 @@ const BentoGrid = () => {
 
         <div className="col-span-6 row-span-2 mobiles:col-span-12 mobiles:row-span-1 mobiles:p-4 mobiles:overflow-hidden py-12 px-14 font-host-grotesk border-2 border-[#ffffff0d] ">
           <h4 className="text-[#f7f8f8] text-[24px] mobiles:text-[17px] leading-7 pb-1 font-medium">
-            Project updates
+            Stay Informed with Project Updates
           </h4>
           <p className="text-[#8a8f98] text-[17px] mobiles:text-[12px] leading-6 pb-8 text-balance">
             Communicate progress and project health with built-in project
@@ -87,11 +87,11 @@ const BentoGrid = () => {
 
         <div className=" col-span-6 row-span-2 mobiles:col-span-12 mobiles:row-span-1 mobiles:p-4 py-12 px-14 font-host-grotesk border-2 border-[#ffffff0d] ">
           <h4 className="text-[#f7f8f8] text-[24px] mobiles:text-[17px] leading-7 pb-1 font-medium">
-            Manage projects end-to-end
+            Anticipate Trends with AI Precision
           </h4>
           <p className="text-[#8a8f98] text-[17px] mobiles:text-[12px] leading-6 pb-8 text-balance">
-            Consolidate specs, milestones, tasks, and other documentation in one
-            centralized location.
+            Harness AI to forecast trends, optimize strategies, and make smarter, 
+            data-driven decisions.
           </p>
 
           <div
@@ -260,7 +260,7 @@ const BentoGrid = () => {
 
         {/* card 7 */}
 
-        <div className="col-span-4 row-span-2 py-2 px-4 mobiles:col-span-12 mobiles:row-span-1 mobiles:p-4 mobiles:h-full mobiles:overflow-hidden font-host-grotesk border-2 border-[#ffffff0d]">
+        <div className="chatDivContainer col-span-4 row-span-2 py-2 px-4 mobiles:col-span-12 mobiles:row-span-1 mobiles:p-4 mobiles:h-full mobiles:overflow-hidden font-host-grotesk border-2 border-[#ffffff0d]">
           <div className="w-full h-full flex flex-col justify-around">
 
             <div className="w-[90%] mx-auto border border-[#232323] rounded-[10px] flex flex-col py-5 gap-5 overflow-hidden [mask-image:linear-gradient(to_right,white_20%,white_80%,transparent)]"
@@ -268,13 +268,13 @@ const BentoGrid = () => {
                 background:
                   "linear-gradient(134deg, hsla(0, 0%, 100%, .08), hsla(0, 0%, 100%, .02), hsla(0, 0%, 100%, 0) 55%)",
               }}>
-              <div className="ml-11 w-full">
+              <div id="chatDiv1" className="ml-11 w-full">
                 <img src="/todo1.png" alt="todo1" />
               </div>
-              <div className="w-full">
+              <div id="chatDiv2" className="w-full">
                 <img src="/todo2.png" alt="todo2" />
               </div>
-              <div className=" w-full ml-7">
+              <div id="chatDiv3" className=" w-full ml-7">
                 <img src="/todo3.png" alt="todo3" />
               </div>
             </div>

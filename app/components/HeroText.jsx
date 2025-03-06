@@ -15,9 +15,9 @@ const HeroText = () => {
 
           <div className="heroText mobiles:w-[70%] mobiles:text-center flex flex-col items-center">
             <BlurReveal className="text-center">
-            <h1 className=' tabPlus:text-[64px] text-[36px] leading-none font-host-grotesk font-light text-[#f4f4f4] tracking-tight heroLine '>Unlock Product Insights</h1>
-            <h1 className=' tabPlus:text-[64px] text-[36px] leading-none font-host-grotesk font-light tracking-tight pb-2 bg-gradient-to-r from-[#5653ff] to-orange-500 bg-clip-text text-transparent'>Make Better Decisions</h1>
-            <p className='font-Satoshi font-normal text-center tabPlus:text-lg text-[12px] text-[#ebebebcc]'>Transform Your Data into Meaningful Insights with AI-Driven Analytics.</p>
+            <h1 className=' tabPlus:text-[64px] text-[36px] leading-none font-host-grotesk font-light text-[#f4f4f4] tracking-tight heroLine '>Centralize & Unite Your Team</h1>
+            <h1 className=' tabPlus:text-[64px] text-[36px] leading-none font-host-grotesk font-light tracking-tight pb-2 bg-gradient-to-r from-[#5653ff] to-orange-500 bg-clip-text text-transparent'>Amplify Your Productivity</h1>
+            <p className='font-Satoshi font-normal text-center tabPlus:text-lg text-[12px] text-[#ebebebcc]'> A single platform for project management, team collaboration, product analysis, and scaling</p>
             </BlurReveal>
             {/* Buttons Start From Here */}
 

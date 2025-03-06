@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .hrBorder {
     border-right: 0.5px solid #8a8a8a;
 }
@@ -286,5 +290,86 @@
     #featureContainer div {
         align-items: center;
         text-align: center;
+    }
+}
+
+.chatDivContainer:hover {
+    #chatDiv1 {
+        transition: 1s all ease-in;
+    animation: chat1 1.5s linear;
+    animation-delay: .2s;
+    }
+    #chatDiv2 {
+        transition: 1s all ease-in;
+    animation: chat2 1.5s linear ;
+    }
+    #chatDiv3 {
+        transition: 1s all ease-in;
+    animation: chat3 1.5s linear ;
+    animation-delay: .1s;
+    }
+}
+
+
+@keyframes chat1 {
+    0% {
+        margin-left: 44px;
+    }
+    50% {
+        margin-left: -300px;
+        opacity: 0;
+    }
+    70% {
+        margin-left: 84px;
+        opacity: 0;
+    }
+    85% {
+        margin-left: 24px;
+        opacity: 1;
+    }
+    100% {
+        margin-left: 44px;
+    }
+}
+
+@keyframes chat2 {
+    0% {
+        margin-left: 0px;
+    }
+    50% {
+        margin-left: -300px;
+        opacity: 0;
+    }
+    70% {
+        margin-left: 84px;
+        opacity: 0;
+    }
+    85% {
+        margin-left: -20px;
+        opacity: 1;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+
+@keyframes chat3 {
+    0% {
+        margin-left: 28px;
+    }
+    50% {
+        margin-left: -300px;
+        opacity: 0;
+    }
+    70% {
+        margin-left: 84px;
+        opacity: 0;
+    }
+    85% {
+        margin-left: 0px;
+        opacity: 1;
+    }
+    100% {
+        margin-left: 28px;
     }
 }
