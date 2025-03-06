@@ -296,16 +296,16 @@ html {
 .chatDivContainer:hover {
     #chatDiv1 {
         transition: 1s all ease-in;
-    animation: chat1 1.5s linear;
+    animation: chat1 1s linear;
     animation-delay: .2s;
     }
     #chatDiv2 {
         transition: 1s all ease-in;
-    animation: chat2 1.5s linear ;
+    animation: chat2 1s linear ;
     }
     #chatDiv3 {
         transition: 1s all ease-in;
-    animation: chat3 1.5s linear ;
+    animation: chat3 1s linear ;
     animation-delay: .1s;
     }
 }
