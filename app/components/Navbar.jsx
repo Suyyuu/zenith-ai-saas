@@ -2,7 +2,6 @@
 import { motion, useMotionValueEvent, useScroll } from "framer-motion";
 import Link from "next/link";
 import React, { useState } from "react";
-import { GoSearch } from "react-icons/go";
 import { IoMenu } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa6";
 import FlyoutMenu from "./FlyoutMenu";

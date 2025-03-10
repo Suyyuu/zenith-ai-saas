@@ -36,7 +36,7 @@ const BlurReveal = ({ children, className }) => {
             transition: {
               duration: 0.5,
               ease: 'easeOut',
-              delay: index * 0.3, // Sequential delay based on index
+              delay: index * 0.3, // Sequential delay based on index which can be used to delay rendering through indexing of elements 
             },
           }}
         >
