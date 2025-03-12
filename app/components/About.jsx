@@ -17,7 +17,7 @@ const About = () => {
         </p>
       </div>
 
-      <div className="w-[80%] py-[60px] mx-auto flex mobiles:w-full mobiles:flex-col gap-2 mobiles:gap-5">
+      <div className="w-[85%] custom:w-[70%] py-[60px] mx-auto flex mobiles:w-full mobiles:flex-col custom:flex-col custom:gap-5 gap-2 mobiles:gap-5">
         {/* First Feature */}
 
         <div className="w-full h-[auto] gap-8 flex flex-col mobiles:flex-col justify-between">
@@ -31,7 +31,7 @@ const About = () => {
             <h4 className="text-[#eaeaea] text-[24px] font-host-grotesk mobiles:w-full">
               Full-Spectrum Data Gathering
             </h4>
-            <p className="text-[#8a8f98] text-[17px] mobiles:text-[12px] leading-6 font-Satoshi w-[80%] mobiles:w-[90%] mobiles:m-auto mobiles:text-center">
+            <p className="text-[#8a8f98] text-[17px] text-pretty mobiles:text-[12px] leading-6 font-Satoshi w-[80%] mobiles:w-[90%] mobiles:m-auto">
               Streamline data collection from CRM systems, user insights, website
               analytics, and other key sources. Our platform effortlessly
               integrates with your existing tools to deliver a complete view of
@@ -53,7 +53,7 @@ const About = () => {
             <h4 className="text-[#eaeaea] text-[24px] font-host-grotesk mobiles:w-full">
               Next-Gen Data Visualization
             </h4>
-            <p className="text-[#aaa] text-[12px] font-Satoshi w-[80%] mobiles:w-[90%] mobiles:m-auto mobiles:text-center">
+            <p className="text-[#8a8f98] text-[17px] text-pretty mobiles:text-[12px] leading-6 font-Satoshi w-[80%] mobiles:w-[90%] mobiles:m-auto">
               Revolutionize your data analysis with our user-friendly
               visualization tools. Our platform’s interactive dashboards and
               detailed reports help you visualize key trends, track performance,
@@ -76,7 +76,7 @@ const About = () => {
             <h4 className="text-[#eaeaea] text-[24px] font-host-grotesk mobiles:w-full">
               AI-Driven Behavior Analysis
             </h4>
-            <p className="text-[#aaa] text-[12px] font-Satoshi w-[80%] mobiles:w-[90%] mobiles:m-auto mobiles:text-center">
+            <p className="text-[#8a8f98] text-[17px] text-pretty mobiles:text-[12px] leading-6 font-Satoshi w-[80%] mobiles:w-[90%] mobiles:m-auto">
               Utilize behavioral data analysis to assess trends, create
               personalized interventions, and apply targeted strategies across a
               range of applications, from customer interactions to employee
