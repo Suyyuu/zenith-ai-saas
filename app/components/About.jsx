@@ -31,7 +31,7 @@ const About = () => {
             <h4 className="text-[#eaeaea] text-[24px] font-host-grotesk mobiles:w-full">
               Full-Spectrum Data Gathering
             </h4>
-            <p className="text-[#aaa] text-[12px] font-Satoshi w-[80%] mobiles:w-[90%] mobiles:m-auto mobiles:text-center">
+            <p className="text-[#8a8f98] text-[17px] mobiles:text-[12px] leading-6 font-Satoshi w-[80%] mobiles:w-[90%] mobiles:m-auto mobiles:text-center">
               Streamline data collection from CRM systems, user insights, website
               analytics, and other key sources. Our platform effortlessly
               integrates with your existing tools to deliver a complete view of

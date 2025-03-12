@@ -42,7 +42,7 @@ const Navbar = () => {
         <div className="tabPlus:flex items-center gap-2 hidden">
           <button className="px-2 py-2 text-[#8a8a8a] flex items-center gap-2 custom:hidden hover:text-[#ffffff]">
             <FaGithub className="text-[20px]" />
-            <span className="text-[16px] ">Star Us</span>
+            <span className="text-[16px] ">9.81K</span>
           </button>
 
           <Link href="/signUp" className=" button text-[16px] px-3 py-2 outline outline-[.1px] outline-[#8a8a8a] rounded-xl font-host-grotesk text-[#dadada] before:bg-[#f4f4f4] ">Get Started</Link>
