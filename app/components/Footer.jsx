@@ -12,7 +12,7 @@ const Footer = () => {
     <div className='w-full bg-[#0a0a0a] border-t border-[#232323] mt-10'>
       <div className='w-[80%] mx-auto mobiles:w-[95%] flex justify-between mobiles:flex-col mobiles:gap-5 px-2 py-8 mobiles:px-10 mobiles:items-start'>
         <div className='flex flex-col gap-5 justify-between'>
-          <img className='w-[126px] h-auto -translate-x-2' src="zen.png" alt="" />
+          <img className='w-[126px] h-auto -translate-x-2' src="logo3.png" alt="" />
           <div className='flex flex-col gap-4'>
             <h6 className='text-[14px] font-host-grotesk text-[#eaeaea]'>FOLLOW US</h6>
             <div className='flex gap-4 text-[#aaaaaa] cursor-pointer '>
@@ -69,7 +69,7 @@ const Footer = () => {
         <p className='text-[#61656b] text-[14px] font-Satoshi'>Copyright &#169; 2025 Zenith Labs, Inc.</p>
         <Link href="#" className='text-[16px] text-[#aaaaaa] hover:text-[#fafafa] font-Satoshi'>Privacy Policy</Link>
         <Link href="#" className='text-[16px] text-[#aaaaaa] hover:text-[#fafafa] font-Satoshi'>Terms of Service</Link>
-        <span className='flex items-center text-[#61656b] text-[14px] font-Satoshi'><img className='invert saturate-200 w-16' src="/heart.svg" alt="" /><p className='text-nowrap -translate-x-2'> Made with Passion </p> </span>
+        <span className='flex items-center text-[#61656b] text-[14px] font-Satoshi'><img className=' w-16' src="/heart.svg" alt="" /><p className='text-nowrap -translate-x-2'> Made with Passion </p> </span>
       </div>
       
     </div>

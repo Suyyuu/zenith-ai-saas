@@ -32,7 +32,7 @@ const MarqueeCard = () => {
     },
     {
       quote:
-        "“Our process have been optimised by 15% overall - Gen1 has been the primary reason for us to achieve profitablility”",
+        "“Our process have been optimised by 15% overall - Zenith has been the primary reason for us to achieve profitablility”",
       name: "Peter Hendricks",
       title: "CEO at TechFi",
       img: "/client5.jpg",
@@ -46,9 +46,9 @@ const MarqueeCard = () => {
     },
     {
       quote:
-        "“Got 18% Month-On-M growth with Gen1. Love the insights & how simple it is to set things up & get started in it - great UX”",
+        "“Hands Down the best All-In-One Solution for project management, Team Management and Scaling , You need zenith.”",
       name: "Gary Wilson",
-      title: "CMO at Nexus Bank",
+      title: "CTO at Nexus Bank",
       img: "/client7.jpg",
     },
   ];

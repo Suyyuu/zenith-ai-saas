@@ -21,10 +21,10 @@ const BentoGrid = () => {
   };
   return (
     <div id="capabilities" className="w-full flex flex-col gap-12 pb-20">
-      <div className="  w-[80%] mobiles:w-[90%] custom:w-[90%] max-w-[1080px] mx-auto grid grid-cols-12 grid-rows-8 border-2 border-[#ffffff0d]">
+      <div className="  w-[80%] mobiles:w-[90%] custom:w-[90%] max-w-[1080px] mx-auto grid grid-cols-12 grid-rows-8">
         {/* Card1 */}
 
-        <div className=" col-span-6 row-span-2 mobiles:col-span-12 mobiles:row-span-1 mobiles:p-4 py-12 px-14 font-host-grotesk border-2 border-[#ffffff0d] ">
+        <div className=" col-span-6 row-span-2 mobiles:col-span-12 mobiles:row-span-1 mobiles:p-4 py-12 px-14 font-host-grotesk border-y-2 border-r-2 border-[#ffffff0d] ">
           <h4 className="text-[#f7f8f8] text-[24px] mobiles:text-[17px] leading-7 pb-1 font-medium">
             Manage projects end-to-end
           </h4>
@@ -50,7 +50,7 @@ const BentoGrid = () => {
 
         {/* card 2 */}
 
-        <div className="col-span-6 row-span-2 mobiles:col-span-12 mobiles:row-span-1 mobiles:p-4 mobiles:overflow-hidden py-12 px-14 font-host-grotesk border-2 border-[#ffffff0d] ">
+        <div className="col-span-6 row-span-2 mobiles:col-span-12 mobiles:row-span-1 mobiles:p-4 mobiles:overflow-hidden py-12 px-14 font-host-grotesk border-y-2 border-l-2 border-[#ffffff0d] ">
           <h4 className="text-[#f7f8f8] text-[24px] mobiles:text-[17px] leading-7 pb-1 font-medium">
             Stay Informed with Project Updates
           </h4>
@@ -85,7 +85,7 @@ const BentoGrid = () => {
 
         {/* card 3 */}
 
-        <div className=" col-span-6 row-span-2 mobiles:col-span-12 mobiles:row-span-1 mobiles:p-4 py-12 px-14 font-host-grotesk border-2 border-[#ffffff0d] ">
+        <div className=" col-span-6 row-span-2 mobiles:col-span-12 mobiles:row-span-1 mobiles:p-4 py-12 px-14 font-host-grotesk border-y-2 border-r-2 border-[#ffffff0d] ">
           <h4 className="text-[#f7f8f8] text-[24px] mobiles:text-[17px] leading-7 pb-1 font-medium">
             Anticipate Trends with AI Precision
           </h4>
@@ -111,7 +111,7 @@ const BentoGrid = () => {
 
         {/* card 4 */}
 
-        <div className=" col-span-6 row-span-2 mobiles:col-span-12 mobiles:row-span-1 mobiles:p-4 py-12 px-14 font-host-grotesk border-2 border-[#ffffff0d]">
+        <div className=" col-span-6 row-span-2 mobiles:col-span-12 mobiles:row-span-1 mobiles:p-4 py-12 px-14 font-host-grotesk border-y-2 border-l-2 border-[#ffffff0d]">
           <h4 className="text-[#f7f8f8] text-[24px] mobiles:text-[17px] leading-7 pb-1 font-medium">
             Streamline Task Management
           </h4>
@@ -152,7 +152,7 @@ const BentoGrid = () => {
 
         {/* card 5 */}
 
-        <div className="col-span-12 row-span-2 py-12 px-14 mobiles:p-4 mobiles:h-full mobiles:overflow-hidden font-host-grotesk border-2 border-[#ffffff0d]">
+        <div className="col-span-12 row-span-2 py-12 px-14 mobiles:p-4 mobiles:h-full mobiles:overflow-hidden font-host-grotesk border-y-2 border-[#ffffff0d]">
           <div className="w-full flex mobiles:flex-col mobiles:gap-10 justify-between">
             <div className="flex flex-col gap-3 mt-[64px] mobiles:mt-0">
               <h4 className="text-[24px] mobiles:text-[17px] tracking-tighter leading-8 text-[#f7f7f8]">
@@ -230,7 +230,7 @@ const BentoGrid = () => {
 
         {/* card 6 */}
 
-        <div className="col-span-4 row-span-2 py-2 px-4 mobiles:col-span-12 mobiles:row-span-1 mobiles:p-4 mobiles:h-full mobiles:overflow-hidden font-host-grotesk border-2 border-[#ffffff0d]">
+        <div className="col-span-4 row-span-2 py-2 px-4 mobiles:col-span-12 mobiles:row-span-1 mobiles:p-4 mobiles:h-full mobiles:overflow-hidden font-host-grotesk border-y-2 border-r-2 border-[#ffffff0d]">
 
           <div className="w-full h-full">
             <div className=" h-full flex flex-col justify-around text-center parentStack rounded-[10px]">
@@ -260,7 +260,7 @@ const BentoGrid = () => {
 
         {/* card 7 */}
 
-        <div className="chatDivContainer col-span-4 row-span-2 py-2 px-4 mobiles:col-span-12 mobiles:row-span-1 mobiles:p-4 mobiles:h-full mobiles:overflow-hidden font-host-grotesk border-2 border-[#ffffff0d]">
+        <div className="chatDivContainer col-span-4 row-span-2 py-2 px-4 mobiles:col-span-12 mobiles:row-span-1 mobiles:p-4 mobiles:h-full mobiles:overflow-hidden font-host-grotesk border-y-2 border-x-2 border-[#ffffff0d]">
           <div className="w-full h-full flex flex-col justify-around">
 
             <div className="w-[90%] mx-auto border border-[#232323] rounded-[10px] flex flex-col py-5 gap-5 overflow-hidden [mask-image:linear-gradient(to_right,white_20%,white_80%,transparent)]"
@@ -290,7 +290,7 @@ const BentoGrid = () => {
 
         {/* card 8 */}
 
-        <div className="col-span-4 row-span-2 py-2 px-4 mobiles:col-span-12 mobiles:row-span-1 mobiles:p-4 mobiles:h-full mobiles:overflow-hidden font-host-grotesk border-2 border-[#ffffff0d]">
+        <div className="col-span-4 row-span-2 py-2 px-4 mobiles:col-span-12 mobiles:row-span-1 mobiles:p-4 mobiles:h-full mobiles:overflow-hidden font-host-grotesk border-y-2 border-l-2 border-[#ffffff0d]">
           <div className="w-full h-full rounded-[10px] flex flex-col justify-around mobiles:gap-3 items-center micWork overflow-hidden cursor-default">
             <div className="relative micContainer w-fit rounded-full border-b-[rgba(176,214,255,0.8)]">
               <div id="circle1" className=" absolute h-full w-full border border-[rgba(176,214,255,0.8)] rounded-full scale-[5]"></div>
