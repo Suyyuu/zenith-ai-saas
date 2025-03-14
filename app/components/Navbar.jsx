@@ -32,7 +32,7 @@ const Navbar = () => {
       className="fixed h-auto w-[85%] custom:w-full top-[34px] left-1/2 -translate-x-[50%] px-3 py-3 flex justify-between items-center z-[1000000] ">
         <div className="flex items-center justify-between gap-10 custom:gap-2">
           <a href="/">
-            <img className="w-32 h-auto" src="/zen.png" alt="Zen AI Logo" />
+            <img className="w-32 h-auto" src="/logo3.png" alt="Zen AI Logo" />
           </a>
 
           <FlyoutMenu />
@@ -45,7 +45,7 @@ const Navbar = () => {
             <span className="text-[16px] ">9.81K</span>
           </button>
 
-          <Link href="/signUp" className=" button text-[16px] px-3 py-2 outline outline-[.1px] outline-[#8a8a8a] rounded-xl font-host-grotesk text-[#dadada] before:bg-[#f4f4f4] ">Get Started</Link>
+          <Link href="/signUp" className=" button text-[16px] px-[10px] py-[6px] outline outline-[.1px] outline-[#8a8a8a] rounded-xl font-host-grotesk text-[#dadada] before:bg-[#f4f4f4] ">Get Started</Link>
         </div>
 
         
