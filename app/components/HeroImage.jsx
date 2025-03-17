@@ -43,14 +43,14 @@ const HeroImage = () => {
       <div className="contents">
         <div className="block will-change-transform opacity-100 transform translate-y-6 mobiles:-translate-y-6 custom:flex-shrink-0 custom:flex-grow-[1] custom:basis-0 tab:h-[379px] custom:w-[1px] flex-none h-[605px] custom2:h-[187px] overflow-hidden relative w-full mobiles:w-[90%]">
           <motion.div className="block absolute top-0 right-0 bottom-0 left-0 [mask-image:linear-gradient(to_bottom,white_20%,white_80%,transparent)]"
-          initial={{ y: 100, opacity: 0 }}
+          initial={{ y: 50, opacity: 0 }}
           animate={{
-            y: isLoaded ? 0 : 100,
+            y: isLoaded ? 0 : 50,
             opacity: isLoaded ? 1 : 0,
           }}
           transition={{
             y: { duration: .8 },
-            opacity: { duration: .5 },
+            opacity: { duration: 1.5 },
             ease: { easeIn }
           }}
           >
