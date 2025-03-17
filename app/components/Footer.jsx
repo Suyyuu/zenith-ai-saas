@@ -12,7 +12,7 @@ const Footer = () => {
     <div className='w-full bg-[#0a0a0a] border-t border-[#232323] mt-10'>
       <div className='w-[80%] mx-auto mobiles:w-[95%] flex justify-between mobiles:flex-col mobiles:gap-5 px-2 py-8 mobiles:px-10 mobiles:items-start'>
         <div className='flex flex-col gap-5 justify-between'>
-          <img className='w-[126px] h-auto -translate-x-2' src="logo3.png" alt="" />
+          <img className='w-[126px] h-auto -translate-x-5' src="logo3.png" alt="logo of zenith" />
           <div className='flex flex-col gap-4'>
             <h6 className='text-[14px] font-host-grotesk text-[#eaeaea]'>FOLLOW US</h6>
             <div className='flex gap-4 text-[#aaaaaa] cursor-pointer '>
