@@ -2,7 +2,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <div id="about" className="w-[100%] h-full flex flex-col items-center gap-4 py-[100px] mobiles:py-[60px]">
+    <div
+      id="about"
+      className="w-[100%] h-full flex flex-col items-center gap-4 py-[100px] mobiles:py-[60px]"
+    >
       <div className="w-[100%] h-full flex flex-col items-center gap-2 mobiles:w-[90%] mobiles:text-center">
         <h1 className="text-[48px] mobiles:text-[36px] leading-none font-light text-[#f4f4f4] tracking-tight font-host-grotesk">
           Supercharge Your Understanding
@@ -32,7 +35,9 @@ const About = () => {
               Full-Spectrum Data Gathering
             </h4>
             <p className="text-[#8a8f98] text-[17px] text-pretty mobiles:text-[12px] leading-6 font-Satoshi w-[80%] mobiles:w-[90%] mobiles:m-auto">
-            Simplify data collection from CRM, user insights, website analytics, and more. Our platform integrates effortlessly for a complete view of your operations.
+              Simplify data collection from CRM, user insights, website
+              analytics, and more. Our platform integrates effortlessly for a
+              complete view of your operations.
             </p>
           </div>
         </div>
@@ -51,10 +56,11 @@ const About = () => {
               Next-Gen Data Visualization
             </h4>
             <p className="text-[#8a8f98] text-[17px] text-pretty mobiles:text-[12px] leading-6 font-Satoshi w-[80%] mobiles:w-[90%] mobiles:m-auto">
-            Revolutionize analysis with intuitive tools. Interactive dashboards and reports help track trends, monitor performance, and make data-driven decisions.
+              Revolutionize analysis with intuitive tools. Interactive
+              dashboards and reports help track trends, monitor performance, and
+              make data-driven decisions.
             </p>
           </div>
-          
         </div>
 
         {/* Third Feature */}
@@ -71,13 +77,13 @@ const About = () => {
               AI-Driven Behavior Analysis
             </h4>
             <p className="text-[#8a8f98] text-[17px] text-pretty mobiles:text-[12px] leading-6 font-Satoshi w-[80%] mobiles:w-[90%] mobiles:m-auto">
-            Use behavioral data to identify trends, personalize interventions, and apply targeted strategies across customer interactions and employee performance.
+              Use behavioral data to identify trends, personalize interventions,
+              and apply targeted strategies across customer interactions and
+              employee performance.
             </p>
           </div>
         </div>
-        
       </div>
-
     </div>
   );
 };
