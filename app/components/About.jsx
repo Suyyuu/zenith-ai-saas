@@ -27,7 +27,7 @@ const About = () => {
           <div className="w-full mobiles:w-full">
             <div className="w-full h-full relative flex">
               <img className="h-[210px] mx-auto" src="/f1.png" alt="" />
-              <div className="circlePosition w-1/2 h-[70%] bg-[#5754ff33] rounded-[100%] absolute z-1 top-[50%] left-[50%] translate-x-[-40%] translate-y-[-50%] blur-[68px]"></div>
+              <div className="circlePosition w-1/2 h-[70%] bg-[#31e3f061] rounded-[100%] absolute z-1 top-[50%] left-[50%] translate-x-[-40%] translate-y-[-50%] blur-[68px]"></div>
             </div>
           </div>
           <div className=" w-full mobiles:w-full flex flex-col justify-center items-center gap-2 text-center">
@@ -48,7 +48,7 @@ const About = () => {
           <div className="w-full mobiles:w-full">
             <div className="w-full h-full relative flex">
               <img className="h-[210px] mx-auto" src="/f2.png" alt="" />
-              <div className="circlePosition w-1/2 h-[80%] bg-[#ce53ff33] rounded-[100%] absolute z-1 top-[50%] left-[50%] translate-x-[-60%] translate-y-[-50%] blur-[76px]"></div>
+              <div className="circlePosition w-1/2 h-[80%] bg-[#4a56ff5a] rounded-[100%] absolute z-1 top-[50%] left-[50%] translate-x-[-60%] translate-y-[-50%] blur-[76px]"></div>
             </div>
           </div>
           <div className="w-full mobiles:w-full flex flex-col justify-center items-center gap-2 text-center">
@@ -69,7 +69,7 @@ const About = () => {
           <div className="w-full mobiles:w-full ">
             <div className="w-full h-full relative flex ">
               <img className="h-[210px] mx-auto" src="/f3.png" alt="" />
-              <div className="circlePosition w-1/2 h-[60%] bg-[#6653ff33] rounded-[100%] absolute z-1 top-[40%] left-[50%] translate-x-[-90%] translate-y-[-50%] blur-[66px]"></div>
+              <div className="circlePosition w-1/2 h-[60%] bg-[#fb66394b] rounded-[100%] absolute z-1 top-[40%] left-[50%] translate-x-[-90%] translate-y-[-50%] blur-[66px]"></div>
             </div>
           </div>
           <div className="w-full mobiles:w-full flex flex-col justify-center items-center gap-2 text-center">

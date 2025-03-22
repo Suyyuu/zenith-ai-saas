@@ -5,8 +5,8 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 const cards = [
-  { id: 1, title: '5x faster to spin up', desc: 'environments via branching', imageSrc: "/slider1.svg" },
-  { id: 2, title: '300k+ databases', desc: 'managed by 1 engineer', imageSrc: "/slider2.svg" },
+  { id: 1, title: '5x faster production', desc: 'environments via zenith meta-brain', imageSrc: "/slider1.svg" },
+  { id: 2, title: '300k+ active members', desc: 'in community, screams Support', imageSrc: "/slider2.svg" },
   { id: 3, title: 'Seamless Integration', desc: 'across multiple platforms', imageSrc: "/slider3.svg" },
   { id: 4, title: 'AI-powered insights', desc: 'for data-driven decisions that drive growth', imageSrc: "/slider4.svg" },
 ];
