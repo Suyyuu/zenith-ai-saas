@@ -32,10 +32,7 @@ const About = () => {
               Full-Spectrum Data Gathering
             </h4>
             <p className="text-[#8a8f98] text-[17px] text-pretty mobiles:text-[12px] leading-6 font-Satoshi w-[80%] mobiles:w-[90%] mobiles:m-auto">
-              Streamline data collection from CRM systems, user insights, website
-              analytics, and other key sources. Our platform effortlessly
-              integrates with your existing tools to deliver a complete view of
-              your operations.
+            Simplify data collection from CRM, user insights, website analytics, and more. Our platform integrates effortlessly for a complete view of your operations.
             </p>
           </div>
         </div>
@@ -54,10 +51,7 @@ const About = () => {
               Next-Gen Data Visualization
             </h4>
             <p className="text-[#8a8f98] text-[17px] text-pretty mobiles:text-[12px] leading-6 font-Satoshi w-[80%] mobiles:w-[90%] mobiles:m-auto">
-              Revolutionize your data analysis with our user-friendly
-              visualization tools. Our platform’s interactive dashboards and
-              detailed reports help you visualize key trends, track performance,
-              and make smarter, data-backed decisions.
+            Revolutionize analysis with intuitive tools. Interactive dashboards and reports help track trends, monitor performance, and make data-driven decisions.
             </p>
           </div>
           
@@ -77,10 +71,7 @@ const About = () => {
               AI-Driven Behavior Analysis
             </h4>
             <p className="text-[#8a8f98] text-[17px] text-pretty mobiles:text-[12px] leading-6 font-Satoshi w-[80%] mobiles:w-[90%] mobiles:m-auto">
-              Utilize behavioral data analysis to assess trends, create
-              personalized interventions, and apply targeted strategies across a
-              range of applications, from customer interactions to employee
-              performance in diverse settings.
+            Use behavioral data to identify trends, personalize interventions, and apply targeted strategies across customer interactions and employee performance.
             </p>
           </div>
         </div>
