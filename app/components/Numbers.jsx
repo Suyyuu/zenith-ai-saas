@@ -55,7 +55,7 @@ const Numbers = () => {
           </div>
           <div className="flex flex-col items-center max-w-[454px] numberCard  p-5">
             <h2 className="text-[#eaeaea] text-[48px] mobiles:text-[30px] font-host-grotesk">
-              {"<"}100%
+              {">"}100%
             </h2>
             <p className="text-[#ffffff] font-Satoshi text-[18px] mobiles:text-[12px]">
               year-on-year growth
