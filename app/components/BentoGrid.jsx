@@ -187,10 +187,10 @@ const BentoGrid = () => {
               {/* variant 1 */}
               {activeVariant === 1 && (
                 <div className="max-w-[360px] mobiles:w-[280px] mx-auto mt-[100px] flex flex-col gap-4">
-                  <HiUsers className="w-[36px] h-[36px] rounded-[8px] p-1 bg-[#68cc5833] text-[#2c901c]" />
+                  <HiUsers className="w-[32px] h-[32px] rounded-[8px] p-1 bg-[#67cc5817] text-[#44d72d]" />
                   <span className="text-[17px] text-[#f7f8f8]"><span className="bg-[#68cc5833] border border-[#2c901c] rounded-l-[4px]">Collaborate on</span> ideas</span>
                   <span className="text-[15px] text-[#8a8f98] leading-6 tracking-tight">
-                    Write down product ideas and work together on feature specs in realtime, multiplayer project documents. Add **style** and ##structure with rich-text formatting options.
+                    Write down product ideas and work together on feature specs in realtime, multiplayer project documents. Add style and structure with rich-text formatting options.
                   </span>
                   <img src="/blankText.svg" alt="" />
                 </div>
@@ -199,10 +199,10 @@ const BentoGrid = () => {
               {/* variant 2 */}
               {activeVariant === 2 && (
                 <div className="max-w-[360px] mobiles:w-[280px] mx-auto mt-[100px] flex flex-col gap-4">
-                  <HiOutlineChatBubbleOvalLeft className="w-[36px] h-[36px] rounded-[8px] p-1 bg-[#68cc5833] text-[#2c901c]" />
-                  <span className="text-[17px] text-[#f7f8f8]"><span className="bg-[#68cc5833] border border-[#2c901c] rounded-l-[4px]">work on</span> ideas</span>
+                  <HiOutlineChatBubbleOvalLeft className="w-[32px] h-[32px] rounded-[8px] p-1 bg-[#67cc5817] text-[#44d72d]" />
+                  <span className="text-[17px] text-[#f7f8f8]"><span className="bg-[#68cc5833] border border-[#2c901c] rounded-l-[4px]">Collect the feedback,</span> refine product</span>
                   <span className="text-[15px] text-[#8a8f98] leading-6 tracking-tight">
-                    Write down product ideas and work together on feature specs in realtime, multiplayer project documents. Add **style** and ##structure with rich-text formatting options.
+                    Express your ideas in same workspace where you can also modify them accordingly <span className="bg-[#cbc62f7c] border border-[#cbc62f7c] text-[#ffffff]">using Contextual Remarks.</span>
                   </span>
                   <img src="/blankText.svg" alt="" />
                 </div>
@@ -211,10 +211,11 @@ const BentoGrid = () => {
               {/* variant 3 */}
               {activeVariant === 3 && (
                 <div className="max-w-[360px] mobiles:w-[280px] mx-auto mt-[100px] flex flex-col gap-4">
-                  <MdFormatListBulletedAdd className="w-[36px] h-[36px] rounded-[8px] p-1 bg-[#68cc5833] text-[#2c901c]" />
-                  <span className="text-[17px] text-[#f7f8f8]"><span className="bg-[#68cc5833] border border-[#2c901c] rounded-l-[4px]">Think on</span> ideas</span>
+                  <MdFormatListBulletedAdd className="w-[32px] h-[32px] rounded-[8px] p-1 bg-[#67cc5817] text-[#44d72d]" />
+                  <span className="text-[17px] text-[#f7f8f8]"><span className="bg-[#68cc5833] border border-[#2c901c] rounded-l-[4px]">Track issues</span> via text</span>
+                  <span className="text-[15px] text-[#8a8f98] leading-6 tracking-tight">Effortless process of vision to execution</span>
                   <span className="text-[15px] text-[#8a8f98] leading-6 tracking-tight">
-                    Write down product ideas and work together on feature specs in realtime, multiplayer project documents. Add **style** and ##structure with rich-text formatting options.
+                    Own luxury of text-activated issue creation that significantly boosts development speeds.
                   </span>
                   <img src="/blankText.svg" alt="" />
                 </div>
