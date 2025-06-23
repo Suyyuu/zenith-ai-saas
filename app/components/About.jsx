@@ -10,7 +10,7 @@ const About = () => {
         <h1 className="text-[48px] mobiles:text-[36px] leading-none font-light text-[#f4f4f4] tracking-tight font-host-grotesk">
           Supercharge Your Understanding
         </h1>
-        <h1 className=" text-[48px] mobiles:text-[36px] leading-none font-light tracking-tight font-host-grotesk pb-2 bg-gradient-to-r from-[#5653ff] to-[#d252ff] bg-clip-text text-transparent">
+        <h1 className=" text-[48px] mobiles:text-[36px] leading-none font-light tracking-tight font-host-grotesk pb-2 bg-gradient-to-r from-[#5653ff] to-orange-500 bg-clip-text text-transparent">
           Of SaaS, E-Commerce, and Beyond
         </h1>
         <p className=" font-Satoshi font-normal text-center text-lg mobiles:text-[12px] mobiles:tracking-tight mobiles:w-[90%] mobiles:leading-normal text-[#ebebebcc]">
@@ -34,7 +34,7 @@ const About = () => {
             <h4 className="text-[#eaeaea] text-[24px] font-host-grotesk mobiles:w-full">
               Full-Spectrum Data Gathering
             </h4>
-            <p className="text-[#8a8f98] text-[17px] text-pretty mobiles:text-[12px] leading-6 font-Satoshi w-[80%] mobiles:w-[90%] mobiles:m-auto">
+            <p className="text-[#8a8f98] text-[17px] text-pretty mobiles:text-[14px] leading-6 font-Satoshi w-[80%] mobiles:w-[90%] mobiles:m-auto">
               Simplify data collection from CRM, user insights, website
               analytics, and more. Our platform integrates effortlessly for a
               complete view of your operations.
@@ -55,7 +55,7 @@ const About = () => {
             <h4 className="text-[#eaeaea] text-[24px] font-host-grotesk mobiles:w-full">
               Next-Gen Data Visualization
             </h4>
-            <p className="text-[#8a8f98] text-[17px] text-pretty mobiles:text-[12px] leading-6 font-Satoshi w-[80%] mobiles:w-[90%] mobiles:m-auto">
+            <p className="text-[#8a8f98] text-[17px] text-pretty mobiles:text-[14px] leading-6 font-Satoshi w-[80%] mobiles:w-[90%] mobiles:m-auto">
               Revolutionize analysis with intuitive tools. Interactive
               dashboards and reports help track trends, monitor performance, and
               make data-driven decisions.
@@ -76,7 +76,7 @@ const About = () => {
             <h4 className="text-[#eaeaea] text-[24px] font-host-grotesk mobiles:w-full">
               AI-Driven Behavior Analysis
             </h4>
-            <p className="text-[#8a8f98] text-[17px] text-pretty mobiles:text-[12px] leading-6 font-Satoshi w-[80%] mobiles:w-[90%] mobiles:m-auto">
+            <p className="text-[#8a8f98] text-[17px] text-pretty mobiles:text-[14px] leading-6 font-Satoshi w-[80%] mobiles:w-[90%] mobiles:m-auto">
               Use behavioral data to identify trends, personalize interventions,
               and apply targeted strategies across customer interactions and
               employee performance.

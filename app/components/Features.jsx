@@ -29,7 +29,6 @@ const Features = () => {
       Leverage AI-powered features to effortlessly gather and analyze data from CRM,<br className="mobiles:hidden"/> user feedback, web analytics and more.
       </p>
 
-      {/* Icons Grids */}
       <div id="featureContainer" className="w-[80%] mx-auto grid grid-cols-12 grid-rows-3 mobiles:grid-cols-6 mobiles:grid-rows-6 gap-10 mobiles:gap-5 pt-16">
 
           <div className=" col-span-3 row-span-1 flex flex-col w-full items-start gap-2">
