@@ -14,10 +14,6 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Zenith - AI-Powered Project Management & Growth Platform",
   description: "It's an all in one SaaS platform for project management, team collaboration, product analysis, and scaling",
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
-    { media: "(prefers-color-scheme: dark)", color: "#0f172a" },
-  ],
 };
 
 export default function RootLayout({ children }) {
