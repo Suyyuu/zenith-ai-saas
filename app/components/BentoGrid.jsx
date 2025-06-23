@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image";
 import React, { useState } from "react";
 import { MdAddTask } from "react-icons/md";
 import { BiCopy } from "react-icons/bi";
@@ -13,8 +12,7 @@ import { PiMicrophone } from "react-icons/pi";
 
 
 const BentoGrid = () => {
-  // bg-custom-gradient bg-custom-gradient-size
-  const [activeVariant, setActiveVariant] = useState(1); // Default to variant 1
+  const [activeVariant, setActiveVariant] = useState(1);
 
   const handleButtonClick = (variantNumber) => {
     setActiveVariant(variantNumber);
@@ -28,7 +26,7 @@ const BentoGrid = () => {
           <h4 className="text-[#f7f8f8] text-[24px] mobiles:text-[17px] leading-7 pb-1 font-medium">
             Manage projects end-to-end
           </h4>
-          <p className="text-[#8a8f98] text-[17px] mobiles:text-[12px] leading-6 pb-8 text-balance">
+          <p className="text-[#8a8f98] text-[17px] mobiles:text-[14px] leading-6 pb-8 text-balance">
             Consolidate specs, milestones, tasks, and other documentation in one
             centralized location.
           </p>
@@ -54,7 +52,7 @@ const BentoGrid = () => {
           <h4 className="text-[#f7f8f8] text-[24px] mobiles:text-[17px] leading-7 pb-1 font-medium">
             Stay Informed with Project Updates
           </h4>
-          <p className="text-[#8a8f98] text-[17px] mobiles:text-[12px] leading-6 pb-8 text-balance">
+          <p className="text-[#8a8f98] text-[17px] mobiles:text-[14px] leading-6 pb-8 text-balance">
             Communicate progress and project health with built-in project
             updates.
           </p>
@@ -89,7 +87,7 @@ const BentoGrid = () => {
           <h4 className="text-[#f7f8f8] text-[24px] mobiles:text-[17px] leading-7 pb-1 font-medium">
             Anticipate Trends with AI Precision
           </h4>
-          <p className="text-[#8a8f98] text-[17px] mobiles:text-[12px] leading-6 pb-8 text-balance">
+          <p className="text-[#8a8f98] text-[17px] mobiles:text-[14px] leading-6 pb-8 text-balance">
             Harness AI to forecast trends, optimize strategies, and make smarter, 
             data-driven decisions.
           </p>
@@ -115,7 +113,7 @@ const BentoGrid = () => {
           <h4 className="text-[#f7f8f8] text-[24px] mobiles:text-[17px] leading-7 pb-1 font-medium">
             Streamline Task Management
           </h4>
-          <p className="text-[#8a8f98] text-[17px] mobiles:text-[12px] leading-6 pb-8 text-balance">
+          <p className="text-[#8a8f98] text-[17px] mobiles:text-[14px] leading-6 pb-8 text-balance">
             Effectively review, prioritize, and delegate unplanned work for
             optimal Workflow
           </p>

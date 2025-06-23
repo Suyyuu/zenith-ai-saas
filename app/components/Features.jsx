@@ -25,7 +25,7 @@ const Features = () => {
           for Scaling
         </h1>
       </div>
-      <p className="font-Satoshi font-normal text-center text-[18px] mobiles:text-[12px] mobiles:w-[90%] mx-auto text-[#ffffff80] tabPlus:leading-5">
+      <p className="font-Satoshi font-normal text-center text-[18px] mobiles:text-[14px] mobiles:w-[90%] mx-auto text-[#ffffff80] tabPlus:leading-5">
       Leverage AI-powered features to effortlessly gather and analyze data from CRM,<br className="mobiles:hidden"/> user feedback, web analytics and more.
       </p>
 

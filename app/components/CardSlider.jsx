@@ -2,7 +2,6 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-import Image from 'next/image';
 
 const cards = [
   { id: 1, title: '5x faster production', desc: 'environments via zenith meta-brain', imageSrc: "/slider1.svg" },

@@ -22,7 +22,7 @@ const Numbers = () => {
             </div>
           </div>
 
-          <p className="text-[#8a8f98] text-[18px] mobiles:text-[12px] font-Satoshi max-w-96 mobiles:max-w-full">
+          <p className="text-[#8a8f98] text-[18px] mobiles:text-[14px] font-Satoshi max-w-96 mobiles:max-w-full">
             Our Numbers don't lie. We are helping businesses reach their
             potential and also break through the bounds to reach newer heights.
           </p>
