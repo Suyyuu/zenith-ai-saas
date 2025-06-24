@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Pricing from '../components/Pricing'
+import Footer from '../components/Footer'
 
 const page = () => {
   return (
@@ -9,6 +10,7 @@ const page = () => {
         <div className="bg-transparent h-full w-full">
           <Navbar />
           <Pricing />
+          <Footer />
         </div>
       </div>
     </>
